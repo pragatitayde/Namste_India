@@ -6,8 +6,8 @@ from Profile_page import Profiel
 from streamlit_navigation_bar import st_navbar
 st.set_page_config(layout="wide")
 
-page = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
-st.write(page)
+options = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
+st.write(options)
 # Set up page navigation
 
 st.markdown(
@@ -21,7 +21,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-options = st_navbar(["Home","Profile", "Member", "Nepal", "UAE", "Event"])
+# options = st_navbar(["Home","Profile", "Member", "Nepal", "UAE", "Event"])
     # st.write(page)
 
 # st.title("Multipage Streamlit App Without Sidebar")
