@@ -1,0 +1,4 @@
+streamlit_navigation_bar
+streamlit
+pandas
+firebase_admin
