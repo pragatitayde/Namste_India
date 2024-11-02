@@ -1,4 +1,4 @@
-streamlit_navigation_bar
+streamlit-navigation-bar
 streamlit
 pandas
 firebase_admin
