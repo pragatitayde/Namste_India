@@ -6,7 +6,8 @@ from Profile_page import Profiel
 from streamlit_navigation_bar import st_navbar
 st.set_page_config(layout="wide")
 
-
+page = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
+st.write(page)
 # Set up page navigation
 
 st.markdown(
